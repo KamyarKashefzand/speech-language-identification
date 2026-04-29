@@ -1,0 +1,31 @@
+# Requirements for Speech Language Identification Project
+# Python >= 3.9
+
+# Core Deep Learning
+torch>=2.0
+torchaudio>=2.0
+transformers>=4.36
+accelerate>=0.25
+
+# Data Handling
+datasets>=2.16
+pandas>=1.5
+numpy>=1.24
+
+# Evaluation & ML
+scikit-learn>=1.2
+evaluate>=0.4
+
+# Audio Processing
+librosa>=0.10
+soundfile
+scipy>=1.10
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Utilities
+tqdm>=4.65
+wandb>=0.15
+huggingface-hub>=0.19
